@@ -1,0 +1,1 @@
+const box=document.querySelector('.compare-images');const range=document.querySelector('#compare');function update(){box.style.setProperty('--reveal',range.value+'%');}range.addEventListener('input',update);update();
